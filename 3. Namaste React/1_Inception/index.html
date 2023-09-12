@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Hello World using HTML -->
+
+    <!-- <div id="root">
+      <h1>Hello World</h1>
+    </div> -->
+
+    <!-- Hello World using JS -->
+
+    <!-- <script>
+      const heading = document.createElement('h1'); // To create an element using JavaScript
+      heading.innerHTML = 'Hello World From JavaScript'; // To change the value of the created element
+
+      const root = document.getElementById('root'); // To capture element by its ID
+      root.appendChild(heading); // To append child inside the root
+    </script> -->
+
+    <!-- CDN Links for including React -->
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Hello World using React -->
+
+    <div id="root"></div>
+
+    <!-- <script>
+      const heading = React.createElement('h1', {}, 'Hello World from React');
+
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+
+      root.render(heading);
+    </script> -->
+
+    <!-- Using External JS file -->
+
+    <script src="./App.js"></script>
+  </body>
+</html>

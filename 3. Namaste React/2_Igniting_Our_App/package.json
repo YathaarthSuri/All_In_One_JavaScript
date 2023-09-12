@@ -1,0 +1,23 @@
+{
+  "name": "2_igniting_our_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YathaarthSuri/namaste-js.git"
+  },
+  "keywords": [],
+  "author": "Yathaarth Suri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YathaarthSuri/namaste-js/issues"
+  },
+  "homepage": "https://github.com/YathaarthSuri/namaste-js#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
