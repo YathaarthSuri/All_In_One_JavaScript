@@ -5,28 +5,9 @@ import { MENU_API } from '../utils/constants';
 import useRestaurantMenu from '../utils/useRestaurantMenu';
 
 const RestaurantMenu = () => {
-  // console.log('Inside component before hook');
-  // const [resInfo, setResInfo] = useState(null);
-
   const { resId } = useParams();
-  //   console.log(params);
 
   const resInfo = useRestaurantMenu(resId);
-
-  // console.log('Inside component after hook');
-
-  // useEffect(() => {
-  //   fetchMenu();
-  // }, []);
-
-  // const fetchMenu = async () => {
-  //   const data = await fetch(MENU_API + resId);
-  //   const json = await data.json();
-
-  //   setResInfo(json);
-
-  //   console.log(json);
-  // };
 
   if (resInfo === null) {
     return <Shimmer />;
@@ -40,7 +21,7 @@ const RestaurantMenu = () => {
       ?.card;
 
   return (
-    <div className='menu'>
+    <div>
       <h1>{name}</h1>
       <p>
         {cuisines.join(', ')} - {'Rs. '} {costForTwoMessage}
