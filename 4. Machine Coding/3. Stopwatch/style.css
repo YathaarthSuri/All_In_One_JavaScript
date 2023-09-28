@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-container {
+    height: 200px;
+    display: flex;
+}
+
+button {
+    height: 50px;
+}
+
+.start {
+    background-color: green;
+    border: none;
+    outline: none;
+    width: 100px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.stop {
+    background-color: red;
+    border: none;
+    outline: none;
+    width: 100px;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+.reset {
+    background-color: orange;
+    border: none;
+    outline: none;
+    width: 100px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
